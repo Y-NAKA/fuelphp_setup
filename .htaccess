@@ -1,0 +1,5 @@
+# FuelPHPリダイレクト設定
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^(.*)$ /public/index.php [L]
